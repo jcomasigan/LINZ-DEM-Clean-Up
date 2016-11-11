@@ -1,0 +1,13 @@
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\bin\Debug\LINZ DEM Clean Up.exe.config
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\bin\Debug\LINZ DEM Clean Up.exe
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\bin\Debug\LINZ DEM Clean Up.pdb
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\LINZ DEM Clean Up.csprojResolveAssemblyReference.cache
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\MainWindow.baml
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\MainWindow.g.cs
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\App.g.cs
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\LINZ DEM Clean Up_MarkupCompile.cache
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\LINZ DEM Clean Up.g.resources
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\LINZ_DEM_Clean_Up.Properties.Resources.resources
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\LINZ DEM Clean Up.csproj.GenerateResource.Cache
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\LINZ DEM Clean Up.exe
+I:\JMasigan\Personal\Visual Studio Proj Files\LINZ DEM Clean Up\LINZ DEM Clean Up\obj\Debug\LINZ DEM Clean Up.pdb
