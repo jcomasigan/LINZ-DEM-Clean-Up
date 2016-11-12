@@ -4,9 +4,11 @@
         Title="Clean DEM" Height="253.817" Width="525">
     <Grid Margin="0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="192*"/>
-            <ColumnDefinition Width="131*"/>
-            <ColumnDefinition Width="194*"/>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="144*"/>
+            <ColumnDefinition Width="177*"/>
+            <ColumnDefinition Width="106*"/>
+            <ColumnDefinition Width="19*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="5*"/>
@@ -15,12 +17,12 @@
             <RowDefinition Height="33*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <Label Content="Directory:" HorizontalAlignment="Left" Margin="0,20,0,16" VerticalAlignment="Center" Height="26" Width="71" Grid.Row="1"/>
-        <Button x:Name="chooseDirButton" Content="......." HorizontalAlignment="Right" Margin="0,22,15,18" VerticalAlignment="Center" Width="98" Grid.Row="1" Grid.Column="2" Height="22" Click="chooseDirButton_Click"/>
-        <TextBox x:Name="dirTextBox" HorizontalAlignment="Center" Height="22" Margin="71,22,127,18" TextWrapping="Wrap" Text="select a folder" VerticalAlignment="Center" Width="319" Grid.Row="1" Grid.ColumnSpan="3" SpellCheck.IsEnabled="True" IsEnabled="False"/>
-        <Button x:Name="cleanButton" Content="CLEAN" Margin="0,28,0,27" Grid.Row="3" Grid.Column="1" Click="cleanButton_Click" VerticalAlignment="Center" Width="99"/>
-        <TextBox x:Name="maxHeightTxtBox" HorizontalAlignment="Left" Height="23" Margin="71,10,0,0" Grid.Row="2" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
-        <Label Content="Tolerance" HorizontalAlignment="Left" Margin="0,7,0,26" VerticalAlignment="Center" Height="26" Width="71" Grid.Row="2"/>
+        <Label Content="Directory:" HorizontalAlignment="Left" Margin="0,23" VerticalAlignment="Center" Height="26" Width="61" Grid.Row="1"/>
+        <Button x:Name="chooseDirButton" Content="......." Margin="25,0" VerticalAlignment="Center" Grid.Row="1" Grid.Column="3" Click="chooseDirButton_Click" Grid.ColumnSpan="3" RenderTransformOrigin="0.122,0.545" Panel.ZIndex="3"/>
+        <TextBox x:Name="dirTextBox" HorizontalAlignment="Center" Height="22" Margin="1,25,2,25" TextWrapping="Wrap" Text="select a folder" VerticalAlignment="Center" Width="318" Grid.Row="1" SpellCheck.IsEnabled="True" IsEnabled="False" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button x:Name="cleanButton" Content="CLEAN" Margin="50,0" Grid.Row="3" Grid.Column="1" Click="cleanButton_Click" VerticalAlignment="Center" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+        <TextBox x:Name="maxHeightTxtBox" Margin="25,0" Grid.Row="2" TextWrapping="Wrap" Text=" " Grid.Column="1" VerticalAlignment="Center"/>
+        <Label Content="Tolerance" HorizontalAlignment="Left" Margin="0,17,0,16" VerticalAlignment="Center" Height="26" Width="61" Grid.Row="2"/>
 
     </Grid>
 </Window>

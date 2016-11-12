@@ -37,7 +37,8 @@ namespace LINZ_DEM_Clean_Up
                         updatedLines.Add(line + "\r\n");
                         lineCount++;
                     }
-                    using (var writer = new StreamWriter(@"\\mesa\users\jmasigan\textelav\" + fileNo.ToString() + ".asc"))
+                    CreateDir(dir);
+                    using (var writer = new StreamWriter(dir + "\\Cleaned\\" + Path.GetFileName(file)))
                     {
                         foreach (string updatedLine in updatedLines)
                         {
@@ -50,6 +51,14 @@ namespace LINZ_DEM_Clean_Up
             }
         }
 
+        private static void CreateDir(string dir)
+        {
+            if(!Directory.Exists(dir + "\\Cleaned"))
+            {
+                Directory.CreateDirectory(dir + "\\Cleaned");
+            }
+        }
+
         private static string ProcessLine(string line, double tolerance)
         {
             string[] elav = line.Split(' ');
@@ -58,18 +67,14 @@ namespace LINZ_DEM_Clean_Up
             double nextElev = 0;
             for (int i = 0; i < (elav.Count() - 1) ; i++)
             {
-                if (i > 0)
+                if (i > 1)
                 {                 
                     double.TryParse(elav[i - 1], out previousElev);
                     double.TryParse(elav[i], out currElev);
                     double.TryParse(elav[i + 1], out nextElev);
-                    if (Math.Abs(currElev  - previousElev) < tolerance)
+                    if (Math.Abs(currElev  - previousElev) > tolerance)
                     {
-                        currElev = ((previousElev + nextElev / 2));
-                        if (Math.Abs(currElev - previousElev) < tolerance)
-                        {
-                            currElev = previousElev;
-                        }
+                        currElev = previousElev;
                         elav[i] = currElev.ToString();
                     }                
                 }
